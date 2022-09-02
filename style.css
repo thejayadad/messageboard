@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: cursive;
+    overflow-x: hidden;
 }
 a{
     text-decoration: none;
@@ -69,6 +70,47 @@ button{
 
 
 /* header end */
+
+/* subheader start */
+
+.sub-header{
+    width: 100vw;
+    height: 30vh;
+    background: url("bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* subheader end */
+/* header end */
+
+/* create post start */
+.create-post {
+    background: black;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 10px;
+    
+
+}
+.create{
+    display: flex;
+    align-items: center;
+}
+.create-post input {
+    width: 50vw;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 6px 10px;
+
+
+
+}
+
+/* create post end */
+
 
 
 /* Mobile start */
